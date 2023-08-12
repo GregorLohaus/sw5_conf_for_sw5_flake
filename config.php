@@ -4,8 +4,7 @@ return [
         'username' => '$DBUSER',
         'password' => '$DBPASS',
         'dbname' => '$DBNAME',
-        'host' => '$DBHOST',
-        'port' => '$DBPORT'
+        'socket' => '$HOME/mariadb/tmp/mysql.sock'
     ],
 
     'front' => [
